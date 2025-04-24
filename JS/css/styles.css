@@ -1,0 +1,60 @@
+/* Index.html */
+.map-input, .map-inputs{
+    display: flex;
+}
+
+#map-frame{
+    width: 50%;
+    height: 50vh;
+}
+
+/* Carousel.html */
+.img-container img{
+    aspect-ratio: 16 / 9;
+    height: 300px;
+}
+
+/* Grid.html */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+    justify-content: center;
+    gap: 10px   ;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.grid-item img{
+    aspect-ratio: 16 / 9;
+    height: 200px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons button{
+    background-color: #35964a;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+    margin: 10px 0 20px 0 ;
+    padding: 5px;
+}
+
+.buttons i{
+    font-size: 24px;
+}
+
+.buttons button.selected{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
